@@ -18,7 +18,7 @@ django-password-validation
 A backport of the `password validation system`_ from Django 1.9 (by Erik
 Romijn), for use on earlier Django versions.
 
-``django-password-validation`` supports `Django`_ 1.8.3 and later on Python
+``django-password-validation`` supports `Django`_ 1.8.2 and later on Python
 2.7, 3.3, 3.4, pypy, and pypy3.
 
 .. _Django: http://www.djangoproject.com/

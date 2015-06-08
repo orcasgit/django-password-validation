@@ -24,7 +24,7 @@ setup(
     maintainer_email='orcastech@orcasinc.com',
     url='https://github.com/orcasgit/django-password-validation/',
     packages=find_packages(),
-    install_requires=['Django>=1.8.3'],
+    install_requires=['Django>=1.8.2'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
