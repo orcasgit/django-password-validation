@@ -1,0 +1,4 @@
+[run]
+source = password_validation
+omit = password_validation/test/*
+branch = 1

@@ -1,0 +1,6 @@
+django_password_validation.egg-info/
+htmlcov/
+.tox/
+doc/_build/
+dist/
+.coverage

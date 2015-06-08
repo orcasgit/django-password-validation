@@ -1,0 +1,18 @@
+language: python
+
+env:
+  # Keep this list up to date using `tox -l`
+  matrix:
+    - TOXENV=py27-django18
+    - TOXENV=py33-django18
+    - TOXENV=py34-django18
+    - TOXENV=pypy-django18
+    - TOXENV=pypy3-django18
+    - TOXENV=flake8
+    - TOXENV=docs
+
+install: travis_retry pip install tox coveralls
+
+script: tox -e $TOXENV
+
+after_success: coveralls
