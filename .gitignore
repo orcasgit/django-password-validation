@@ -4,3 +4,4 @@ htmlcov/
 doc/_build/
 dist/
 .coverage
+password_validation/test/test.sqlite
