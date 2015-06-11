@@ -41,7 +41,7 @@ e.g. ``'password_validation.MinimumLengthValidator'`` in place of
 ``'django.contrib.auth.password_validation.MinimumLengthValidator'``.
 
 In place of the built-in views for password setting/changing you'll need to
-switch to using ``password_validation.views.password_reset`` and
+switch to using ``password_validation.views.password_reset_confirm`` and
 ``password_validation.views.password_change``.
 
 If you have your own custom views for changing or resetting passwords, use
