@@ -1,6 +1,6 @@
-====================
+==========================
 django-password-validation
-====================
+==========================
 
 .. image:: https://secure.travis-ci.org/orcasgit/django-password-validation.png?branch=master
    :target: http://travis-ci.org/orcasgit/django-password-validation
