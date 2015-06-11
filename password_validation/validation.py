@@ -3,6 +3,9 @@
 Copied from django/contrib/auth/password_validation.py at commit
 9851e54121b3eebd3a7a29de3ed874d82554396b
 
+The only modification is changing `from django.conf import settings` to `from
+password_validation.conf import settings`.
+
 """
 from __future__ import unicode_literals
 
@@ -11,7 +14,7 @@ import os
 import re
 from difflib import SequenceMatcher
 
-from django.conf import settings
+from password_validation.conf import settings
 from django.core.exceptions import ImproperlyConfigured, ValidationError
 from django.utils import lru_cache
 from django.utils._os import upath
