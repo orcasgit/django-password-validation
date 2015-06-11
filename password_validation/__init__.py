@@ -1,4 +1,4 @@
-__version__ = '0.1.dev1'
+__version__ = '0.1'
 
 from .validation import (  # noqa
     CommonPasswordValidator, MinimumLengthValidator, NumericPasswordValidator,
