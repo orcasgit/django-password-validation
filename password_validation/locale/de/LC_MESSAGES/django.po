@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-23 10:20+0000\n"
+"PO-Revision-Date: 2017-03-23 11:20+0100\n"
+"Last-Translator: Stefan Foulis <stefan.foulis@divio.ch>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.12\n"
+
+#: validation.py:109
+#, python-format
+msgid ""
+"This password is too short. It must contain at least %(min_length)d "
+"characters."
+msgstr ""
+"Dieses Passwort ist zu kurz. Es muss mindestens %(min_length)d Zeichen "
+"enthalten."
+
+#: validation.py:115
+#, python-format
+msgid "Your password must contain at least %(min_length)d characters."
+msgstr "Das Passwort muss mindestens %(min_length)d Zeichen enthalten."
+
+#: validation.py:148
+#, python-format
+msgid "The password is too similar to the %(verbose_name)s."
+msgstr "Das Passwort ist zu ähnlich wie %(verbose_name)s."
+
+#: validation.py:154
+msgid "Your password can't be too similar to your other personal information."
+msgstr "Das Passwort darf nicht zu ähnlich zu anderen persönlichen Daten sein."
+
+#: validation.py:179
+msgid "This password is too common."
+msgstr "Dieses Passwort ist zu gewöhnlich."
+
+#: validation.py:184
+msgid "Your password can't be a commonly used password."
+msgstr "Das Passwort darf nicht ein gängig verwendetes Passwort sein."
+
+#: validation.py:194
+msgid "This password is entirely numeric."
+msgstr "Das Passwort besteht nur aus Zahlen."
+
+#: validation.py:199
+msgid "Your password can't be entirely numeric."
+msgstr "Das Passwort darf nicht nur aus Zahlen bestehen."
